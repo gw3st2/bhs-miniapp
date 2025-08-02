@@ -30,5 +30,6 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
-  res.status(405).end(); // Method Not Allowed
+  res.status(405).end();
 }
+
