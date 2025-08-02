@@ -1,3 +1,5 @@
+console.log("Incoming message:", JSON.stringify(req.body, null, 2));
+
 export default async function handler(req, res) {
   if (req.method === "POST") {
     const message = req.body.message;
